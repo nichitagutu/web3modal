@@ -1,11 +1,11 @@
 {
-  "name": "web3modal",
-  "version": "2.0.0",
+  "name": "@nichitagutu/web3modal",
+  "version": "2.0.1",
   "private": true,
   "type": "module",
   "scripts": {
     "build": "npm run build --ws --if-present",
-    "dev": "npm run dev --w=@web3modal/core & npm run dev --w=@web3modal/ui & npm run dev --w=@web3modal/ethereum & npm run dev --w=@web3modal/react",
+    "dev": "npm run dev --w=@web3modal/core & npm run dev --w=@nichitagutu/web3modal-ui & npm run dev --w=@web3modal/ethereum & npm run dev --w=@nichitagutu/web3modal-react",
     "lab": "npm run dev --w=laboratory",
     "lint": "eslint .",
     "prettier": "prettier --check .",

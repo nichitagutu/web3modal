@@ -1,6 +1,6 @@
 {
-  "name": "@web3modal/ui",
-  "version": "2.7.1",
+  "name": "@nichitagutu/web3modal-ui",
+  "version": "2.7.2",
   "main": "dist/index.js",
   "type": "module",
   "types": "dist/_types/index.d.ts",
@@ -37,12 +37,12 @@
   ],
   "author": "WalletConnect <walletconnect.com>",
   "license": "Apache-2.0",
-  "homepage": "https://github.com/web3modal/web3modal",
+  "homepage": "https://github.com/nichitagutu/web3modal",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/web3modal/web3modal.git"
+    "url": "git+https://github.com/nichitagutu/web3modal.git"
   },
   "bugs": {
-    "url": "https://github.com/web3modal/web3modal/issues"
+    "url": "https://github.com/nichitagutu/web3modal/issues"
   }
 }

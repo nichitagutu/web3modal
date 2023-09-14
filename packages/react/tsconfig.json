@@ -4,6 +4,7 @@
   "compilerOptions": {
     "jsx": "react",
     "outDir": "./dist/_types",
-    "declaration": true
+    "declaration": true,
+    "lib": ["DOM", "DOM.Iterable", "ES2022"]
   }
 }

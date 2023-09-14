@@ -1,4 +1,4 @@
-import type { W3mNetworkSwitch } from '@web3modal/ui'
+import type { W3mNetworkSwitch } from '@nichitagutu/web3modal-ui'
 import React from 'react'
 
 /**
