@@ -126,7 +126,11 @@ export const UiUtil = {
   handleAndroidLinking() {
     const { pairingUri } = WcConnectionCtrl.state
     CoreUtil.setWalletConnectAndroidDeepLink(pairingUri)
-    CoreUtil.openHref(pairingUri, '_self')
+    const isInTGWebApp =
+      Object.hasOwn(window, 'TelegramWebviewProxy') || Object.hasOwn(window, 'Telegram')
+
+    const target = isInTGWebApp ? '_blank' : '_self'
+    CoreUtil.openHref(pairingUri, target)
   },
 
   async handleUriCopy() {

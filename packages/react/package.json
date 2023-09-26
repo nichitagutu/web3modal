@@ -17,7 +17,7 @@
   },
   "sideEffects": false,
   "dependencies": {
-    "@nichitagutu/web3modal-ui": "2.7.2",
+    "@nichitagutu/web3modal-ui": "2.7.3",
     "@web3modal/core": "2.7.1"
   },
   "devDependencies": {
